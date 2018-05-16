@@ -42,7 +42,7 @@ html {
 
 body {
 	margin: 0;
-	color: #777;
+	color: #a0a0a0;
 	font-family: 'open_sanslight', sans-serif;
 }
 
@@ -213,7 +213,7 @@ button {
 #main {
     padding-top: 81px;
 }
-/* Main end */
+
 /* Inner start */
 .inner {
     background: url(../img/inner-img.jpg)center / cover;
@@ -244,4 +244,51 @@ button {
     color: #fefefe;
 }
 /* Inner end */
+/* About studio start */
+.about-studio .title {
+    font-family: 'dosisregular', sans-serif;
+    font-size: 1.2rem;
+    color: #111;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+}
+
+.about-studio blockquote p {
+    font-size: 1.6rem;
+    line-height: 2.53rem;
+}
+
+.about-studio blockquote span {
+    font-family: 'open_sansregular', sans-serif;
+    font-size: 0.73rem;
+    line-height: 2.53rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+.about-studio .default-text {
+    line-height: 1.73rem;
+}
+
+.about-studio .row + .row {
+    margin-top: 100px;
+}
+
+.team-item-photo {
+    margin-bottom: 30px;
+}
+
+.team-item-info span {
+    display: block;
+    font-family: 'dosisregular', sans-serif;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+}
+
+.team-item .team-item-role {
+    font-size: 0.8rem;
+    margin-top: 15px;
+}
+/* About studio end */
+/* Main end */
 /* Custom style end */
