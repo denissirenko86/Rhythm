@@ -150,6 +150,13 @@ button {
     text-align: center;
 }
 
+.text-right {
+    text-align: right;
+}
+
+.bg-black {
+    background-color: #111;
+}
 /* Default classes end */
 /* Default component start */
 .default-section {
@@ -161,12 +168,11 @@ button {
     text-transform: uppercase;
     color: #111;
     letter-spacing: .5em;
-    font-weight: normal;
-    margin-bottom: 75px;
+    font-weight: normal;    
 }
 
 .title.title-light {
-    letter-spacing: .3em;
+    letter-spacing: .26em;
 }
 
 .title.title-white {
@@ -244,13 +250,14 @@ button {
     color: #fefefe;
 }
 /* Inner end */
-/* About studio start */
+/* ===== About studio start ===== */
 .about-studio .title {
     font-family: 'dosisregular', sans-serif;
     font-size: 1.2rem;
     color: #111;
     letter-spacing: 0.5em;
     text-transform: uppercase;
+    margin-bottom: 75px;
 }
 
 .about-studio blockquote p {
@@ -289,6 +296,27 @@ button {
     font-size: 0.8rem;
     margin-top: 15px;
 }
-/* About studio end */
+/* ===== About studio end ===== */
+/* ===== Lets talk start ===== */
+.lets-talk-wrapper {
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+
+.lets-talk-img {
+    margin-top: -32px;
+}
+
+.lets-talk .title {
+    line-height: 1.73rem;
+    margin-bottom: 28px;
+}
+
+.lets-talk .default-text {
+    color: rgba(255, 255, 255, .7);
+    line-height: 1.73rem;    
+}
+/* ===== Lets talk end ===== */
+
 /* Main end */
 /* Custom style end */
