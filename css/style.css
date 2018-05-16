@@ -21,6 +21,14 @@
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('../fonts/opensans-regular-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 /* ==== Reset start ===== */
 *{
 	box-sizing: border-box;
@@ -168,7 +176,11 @@ button {
 /* Custom style start */
 /* Header start */
 #header {
+    position: fixed;
     overflow: hidden;
+    /* background-color: #9f9f9f; */
+    z-index: 999;
+    width: 100%;
     padding: 30px 0;
 }
 
@@ -181,6 +193,13 @@ button {
     float: right;
 }
 
+#header .header-nav a {
+    font-family: 'open_sansregular', sans-serif;
+    font-size: 0.73rem;
+    color: #fff;
+    letter-spacing: 0.3em;
+}
+
 #header .header-nav li {
     float: left;
     line-height: 21px;
@@ -189,5 +208,40 @@ button {
 #header .header-nav li + li {
     margin-left: 30px;
 }
-/* Header start */
+/* Header end */
+/* Main start */
+#main {
+    padding-top: 81px;
+}
+/* Main end */
+/* Inner start */
+.inner {
+    background: url(../img/inner-img.jpg)center / cover;
+    height: 100vh;
+    padding: 0 15px;
+    position: relative;
+    text-align: center;
+}
+
+.inner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.inner-title h1 {
+    font-family: 'dosisregular', sans-serif;
+    font-size: 2rem;
+    letter-spacing: 1.7em;
+    color: #fefefe;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+}
+
+.inner-title p {
+    font-size: 1.27rem;
+    color: #fefefe;
+}
+/* Inner end */
 /* Custom style end */
