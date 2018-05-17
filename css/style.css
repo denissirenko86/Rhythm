@@ -42,7 +42,7 @@ html {
 
 body {
 	margin: 0;
-	color: #a0a0a0;
+	color: #777;
 	font-family: 'open_sanslight', sans-serif;
 }
 
@@ -163,6 +163,42 @@ button {
     padding: 135px 0;
 }
 
+.btn {
+    font-family: 'open_sansregular', sans-serif;
+    display: inline-block;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 2px;       
+}
+
+.btn-default {
+    padding: 14px 20px 13px;
+    font-size: 0.87rem;
+    line-height: 1.73rem;
+    letter-spacing: 0.2em;
+    color: #fff;
+    background-color: #323232;
+}
+
+.btn-large {
+    padding: 7.25px 40px;
+    font-size: 0.93rem;
+    line-height: 1.73rem;
+    letter-spacing: 0.2em;
+    color: #111;
+    background-color: #cfcfcf;
+}
+
+.btn-small {
+    padding: 9px 15px;
+    font-size: 0.73rem;
+    line-height: 1.73rem;
+    letter-spacing: 0.2em;
+    color: #777;
+    background-color: #e5e5e5;
+}
+
 .title {
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -184,7 +220,6 @@ button {
 #header {
     position: fixed;
     overflow: hidden;
-    /* background-color: #9f9f9f; */
     z-index: 999;
     width: 100%;
     padding: 30px 0;
@@ -216,12 +251,9 @@ button {
 }
 /* Header end */
 /* Main start */
-#main {
-    padding-top: 81px;
-}
-
-/* Inner start */
+/* ===== Inner start ===== */
 .inner {
+    padding-top: 81px;
     background: url(../img/inner-img.jpg)center / cover;
     height: 100vh;
     padding: 0 15px;
@@ -240,14 +272,15 @@ button {
     font-family: 'dosisregular', sans-serif;
     font-size: 2rem;
     letter-spacing: 1.7em;
-    color: #fefefe;
+    color: rgba(254, 254, 254, .9);
     text-transform: uppercase;
     margin-bottom: 100px;
+    text-indent: 1.7em;
 }
 
 .inner-title p {
     font-size: 1.27rem;
-    color: #fefefe;
+    color: rgba(254, 254, 254, .68);
 }
 /* Inner end */
 /* ===== About studio start ===== */
@@ -308,15 +341,49 @@ button {
 }
 
 .lets-talk .title {
+    font-family: 'dosislight', sans-serif;
     line-height: 1.73rem;
     margin-bottom: 28px;
 }
 
 .lets-talk .default-text {
     color: rgba(255, 255, 255, .7);
-    line-height: 1.73rem;    
+    line-height: 1.73rem;
+    margin-bottom: 40px;    
 }
 /* ===== Lets talk end ===== */
+/* ===== Why-choose-us start ===== */
+.why-choose-us .title {
+    font-family: 'dosisregular', sans-serif;
+    font-size: 1.2rem;
+    letter-spacing: 0.5em;
+    color: fff;
+    margin-bottom: 90px;
+}
+
+.why-choose-us .row + .row {
+    margin-top: 85px;
+}
+
+.advantage-icon {
+    font-size: 3.2rem;
+    color: #111;
+}
+
+.why-choose-us .advantage-title {
+    font-family: 'dosisregular', sans-serif;
+    font-size: 0.93rem;
+    letter-spacing: .4em;
+    color: #111;
+    text-transform: uppercase;
+    margin: 35px 0;
+}
+
+.why-choose-us .default-text {
+    font-size: 0.93rem;
+    line-height: 1.73rem;
+}
+/* ===== Why-choose-us end ===== */
 
 /* Main end */
 /* Custom style end */
