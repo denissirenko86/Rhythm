@@ -33,7 +33,8 @@
 *{
 	box-sizing: border-box;
 	margin: 0;
-	padding: 0;
+    padding: 0;
+    outline: none;
 }
 
 html {
@@ -329,6 +330,44 @@ button {
     margin-top: 15px;
 }
 /* ===== About studio end ===== */
+/* ===== Services start ===== */
+.services .title{
+    font-family: 'dosisregular', sans-serif;
+    margin-bottom: 120px;
+} 
+
+.services-tab ul {
+    overflow: hidden;
+    margin-bottom: 80px;
+}
+
+.services-tab ul li {
+    float: left;
+    width: 20%;
+    text-align: center;
+    opacity: .5;
+}
+
+.services-tab ul li.ui-state-active {
+    opacity: 1;
+}
+
+.services-tab ul li span {
+    display: block;
+}
+
+.services-tab ul li a span:first-child {
+    font-size: 3.2rem;
+}
+
+.services-tab ul li a span:last-child {
+    margin-top: 35px;
+    font-family: 'dosisregular', sans-serif;
+    font-size: 0.93rem;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+}
+/* ===== Services end ===== */
 /* ===== Lets talk start ===== */
 .lets-talk-wrapper {
     padding-top: 140px;
