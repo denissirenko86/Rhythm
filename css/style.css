@@ -345,7 +345,8 @@ button {
     float: left;
     width: 20%;
     text-align: center;
-    opacity: .5;
+    opacity: .5
+    ;
 }
 
 .services-tab ul li.ui-state-active {
@@ -422,6 +423,84 @@ button {
     line-height: 1.73rem;
 }
 /* ===== Why-choose-us end ===== */
+/* ===== Reviews start ===== */
+.reviews .icon-quote {
+    padding-top: 1px;
+    font-size: 2.13rem;
+    margin-bottom: 23px;
+}
 
+.reviews .title {
+    font-family: 'dosislight', sans-serif;
+    margin-bottom: 45px;
+}
+
+.reviews p {
+    margin: auto;
+    width: 731px;
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, .75);
+    margin-bottom: 25px;
+}
+
+.reviews .review-author {
+    font-family: 'open_sansregular', sans-serif;
+    font-size: 0.73rem;
+    letter-spacing: 0.2em;
+    color: rgba(255, 255, 255, .3);
+    text-transform: uppercase;
+}
+
+.reviews-carousel {
+    padding: 140px 0;
+}
+
+.slick-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.slick-arrow.slick-prev {
+    left: 0;
+}
+
+.slick-arrow.slick-next {
+    right: 0;
+}
+
+.slick-dots {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    line-height: 0;
+}
+
+.slick-dots li {
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.slick-dots li + li {
+    margin-left: 5px;
+}
+
+.slick-dots li button {
+    color: transparent;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    background-color: #ccc;
+}
+
+.slick-dots li.slick-active button {
+    background-color: transparent;
+    width: 9px;
+    height: 9px;
+}
+/* ===== Reviews end ===== */
 /* Main end */
 /* Custom style end */
