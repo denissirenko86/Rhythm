@@ -284,6 +284,10 @@ button {
 }
 /* Inner end */
 /* ===== About studio start ===== */
+.about-studio {
+    border-bottom: 1px solid #ececec;
+}
+
 .about-studio .title {
     font-family: 'dosisregular', sans-serif;
     font-size: 1.2rem;
@@ -345,8 +349,7 @@ button {
     float: left;
     width: 20%;
     text-align: center;
-    opacity: .5
-    ;
+    opacity: .5;
 }
 
 .services-tab ul li.ui-state-active {
@@ -391,6 +394,59 @@ button {
     margin-bottom: 40px;    
 }
 /* ===== Lets talk end ===== */
+/* ===== Portfolio start ===== */
+.portfolio {
+    padding-bottom: 5px;
+    overflow: hidden;
+}
+
+.portfolio .title {
+    font-family: 'dosisregular', sans-serif;
+    margin-bottom: 80px;
+}
+
+.portfolio p {
+    max-width: 810px;
+    margin: auto;
+    line-height: 1.73rem;
+    margin-bottom: 85px;
+}
+
+.portfolio .ui-tabs-tab {
+    text-align: center;
+    display: inline-block;
+    font-family: 'dosisregular', sans-serif;
+    text-transform: uppercase;
+    font-size: 0.87rem;
+    letter-spacing: 0.4em;
+    color: #111;
+    opacity: .5;   
+}
+
+.portfolio .ui-tabs-active {
+    opacity: 1;
+}
+
+.portfolio .portfolio-tab li + li {
+    margin-left: 70px;
+    margin-bottom: 50px;
+}
+
+.portfolio .portfolio-item {
+    float: left;
+    width: 33.333%;
+    padding: 4px;
+}
+
+.portfolio .portfolio-item img {
+    width: 100%;
+    filter: grayscale(100%);
+}
+
+.portfolio .portfolio-item img:hover {
+    filter: none;
+}
+/* ===== Portfolio end ===== */
 /* ===== Why-choose-us start ===== */
 .why-choose-us .title {
     font-family: 'dosisregular', sans-serif;
@@ -437,7 +493,7 @@ button {
 
 .reviews p {
     margin: auto;
-    width: 731px;
+    max-width: 731px;
     font-size: 1.2rem;
     color: rgba(255, 255, 255, .75);
     margin-bottom: 25px;
