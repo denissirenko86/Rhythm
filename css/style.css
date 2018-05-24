@@ -246,7 +246,7 @@ textarea.form-control {
 }
 
 .btn-default {
-    padding: 14px 20px 13px;
+    padding: 11px 20px 11px;
     font-size: 0.87rem;
     letter-spacing: 0.2em;
     color: #fff;
@@ -288,6 +288,12 @@ textarea.form-control {
 blockquote p {
     font-size: 1.6rem;
     line-height: 2.53rem;
+}
+
+.form-info {
+    font-family: 'open_sansregular', sans-serif;
+    font-size: 0.73rem;
+    color: #aaa;
 }
 /* Default component end */
 /* Custom style start */
@@ -523,7 +529,7 @@ blockquote p {
     padding: 70px 0;
 }
 
-.small-section .title {
+.start-project .title {
     font-family: 'dosislight', sans-serif;
     margin-bottom: 25px;
 }
@@ -639,6 +645,21 @@ blockquote p {
     height: 9px;
 }
 /* ===== Reviews end ===== */
+/* ===== Newsletter start ===== */
+.newsletter .title {
+    font-family: 'dosislight', sans-serif;
+    font-size: 1.07rem;
+    margin-bottom: 20px;
+}
+
+.newsletter .form-control {
+    max-width: 293px;
+}
+
+.newsletter .form-info {
+    margin-top: 20px;
+}
+/* ===== Newsletter end ===== */
 /* ===== Contacts start ===== */
 .contacts .title {
     font-family: 'dosisregular', sans-serif;
