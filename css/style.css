@@ -158,6 +158,12 @@ button {
 .bg-black {
     background-color: #111;
 }
+
+.mx-auto {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
 /* Default classes end */
 /* Default component start */
 .default-section {
@@ -211,6 +217,11 @@ button {
 .title.title-white {
     color: #fff;
 }
+
+blockquote p {
+    font-size: 1.6rem;
+    line-height: 2.53rem;
+}
 /* Default component end */
 /* Custom style start */
 /* Header start */
@@ -234,7 +245,7 @@ button {
 #header .header-nav a {
     font-family: 'open_sansregular', sans-serif;
     font-size: 0.73rem;
-    color: #fff;
+    color: rgba(255, 255, 255, .75);
     letter-spacing: 0.3em;
 }
 
@@ -263,6 +274,7 @@ button {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: 100%;
 }
 
 .inner-title h1 {
@@ -275,7 +287,7 @@ button {
     text-indent: 1.7em;
 }
 
-.inner-title p {
+.inner p {
     font-size: 1.27rem;
     color: rgba(254, 254, 254, .68);
 }
@@ -292,11 +304,6 @@ button {
     letter-spacing: 0.5em;
     text-transform: uppercase;
     margin-bottom: 75px;
-}
-
-.about-studio blockquote p {
-    font-size: 1.6rem;
-    line-height: 2.53rem;
 }
 
 .about-studio blockquote span {
@@ -449,7 +456,7 @@ button {
     padding: 70px 0;
 }
 
-.start-project .title {
+.small-section .title {
     font-family: 'dosislight', sans-serif;
     margin-bottom: 25px;
 }
