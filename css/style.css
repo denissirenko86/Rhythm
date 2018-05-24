@@ -192,6 +192,11 @@ textarea {
     background-color: #111;
 }
 
+.rhomb-icon.white-icon {
+    color: #111;
+    background-color: #fff;
+}
+
 .form-control {
     width: 100%;
     border: 1px solid #e5e5e5;
@@ -683,5 +688,46 @@ blockquote p {
     float: right;
 }
 /* ===== Contacts end ===== */
+/* ===== Map start ===== */
+#map {
+    width: 100%;
+    height: 410px;
+}
+
+.map-container {
+    position: relative;
+}
+
+.map-container span {
+    margin-top: 28px;
+    display: block;
+    font-family: 'dosisregular', sans-serif;
+    font-size: 1.07rem;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, .75)
+}
+
+.on-map-block {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .9);
+}
+
+.map-container:hover .on-map-block {
+    opacity: 0;
+}
+
+.open-maps {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+/* ===== Map start ===== */
 /* Main end */
 /* Custom style end */
