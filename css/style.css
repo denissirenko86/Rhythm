@@ -645,6 +645,61 @@ blockquote p {
     height: 9px;
 }
 /* ===== Reviews end ===== */
+/* ===== Latest News start ===== */
+.latest-title .title {
+    font-family: 'dosisregular', sans-serif;    
+}
+
+.latest-title {
+    overflow: hidden;
+    margin-bottom: 80px;
+}
+
+.latest-title h3 {
+    float: left;
+}
+
+.latest-title a {
+    float: right;
+    font-family: 'dosisregular', sans-serif;
+    font-size: 0.73rem;
+    letter-spacing: 0.4em;
+    color: #999;
+    text-transform: uppercase;
+}
+
+.latest-title a i {
+    font-size: 0.8rem;
+}
+
+.latest-news .lates-img {
+    width: 100%;
+    filter: grayscale(100%);
+    margin-bottom: 30px;
+}
+
+.latest-news h4 {
+    font-family: 'dosisregular', sans-serif;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.latest-news span {
+    display: block;
+    font-family: 'dosisregular', sans-serif;
+    color: #999;
+    font-size: 0.73rem;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.latest-news p {
+    line-height: 1.73rem;
+    margin-bottom: 30px;
+}
+/* ===== Latest News end ===== */
 /* ===== Newsletter start ===== */
 .newsletter .title {
     font-family: 'dosislight', sans-serif;
