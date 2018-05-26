@@ -678,6 +678,10 @@ blockquote p {
     margin-bottom: 30px;
 }
 
+.latest-news .lates-img:hover {
+    filter: none;
+}
+
 .latest-news h4 {
     font-family: 'dosisregular', sans-serif;
     letter-spacing: 0.2em;
