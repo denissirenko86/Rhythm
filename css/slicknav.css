@@ -109,6 +109,7 @@
   position: absolute;
   top: 100%;
   left: 0;
+  right: 0;
   text-align: center; }
   .slicknav_nav ul {
     list-style: none;
