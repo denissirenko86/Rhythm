@@ -9,4 +9,9 @@ $( function() {
         autoplay: true,
         autoplaySpeed: 5000
     });
+    // init slicknav
+    $('.header-nav').slicknav({
+        appendTo: '#header .container-fluid',
+        label: ''
+    });
 } );
