@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="css/et-line.css">
     <!-- Slicknav style -->
     <link rel="stylesheet" href="css/slicknav.css">
+    <!-- Animate css -->
+    <link rel="stylesheet" href="css/animate.css">
     <!-- Custom style -->
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -26,11 +28,11 @@
             </div>
             <!-- /.logo -->
             <ul class="header-nav">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Works</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#" data-scroll=".inner">Home</a></li>
+                <li><a href="#" data-scroll=".about-studio">About</a></li>
+                <li><a href="#" data-scroll=".services">Services</a></li>
+                <li><a href="#" data-scroll=".portfolio">Works</a></li>
+                <li><a href="#" data-scroll=".contacts">Contact</a></li>
             </ul>
             <!-- /.header-nav -->
         </div>
@@ -47,7 +49,7 @@
             <!-- /.inner-content -->
         </div>
         <!-- /.inner -->
-        <div class="default-section about-studio">
+        <div class="default-section about-studio wow slideInUp">
             <div class="container">
                 <h3 class="title">About studio</h3>
                 <div class="row">
@@ -661,6 +663,10 @@
     <script src="js/google-maps.js"></script>
     <!-- Slicknav -->
     <script src="js/jquery.slicknav.min.js"></script>
+    <!-- Header on scroll -->
+    <script src="js/header-on-scroll.js"></script>
+    <!-- Wow animate -->
+    <script src="js/wow.min.js"></script>
     <!-- Init plugins -->
     <script src="js/init.js"></script>
 </body>

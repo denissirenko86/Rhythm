@@ -446,7 +446,8 @@ textarea.form-control {
     display: inline-block;
     text-transform: uppercase;
     cursor: pointer;
-    border-radius: 2px;       
+    border-radius: 2px; 
+    border: 1px solid transparent;         
 }
 
 .btn-default {
@@ -455,6 +456,13 @@ textarea.form-control {
     letter-spacing: 0.2em;
     color: #fff;
     background-color: #323232;
+    transition: all .2s ease-in; 
+}
+
+.btn-default:hover {
+    color: #323232;
+    background-color: #fff;
+    border: 1px solid #323232;
 }
 
 .btn-large {
@@ -463,6 +471,13 @@ textarea.form-control {
     letter-spacing: 0.2em;
     color: #111;
     background-color: #cfcfcf;
+    transition: all .2s ease-in; 
+}
+
+.btn-large:hover {
+    color: #cfcfcf;
+    background-color: #111;
+    border: 1px solid #cfcfcf; 
 }
 
 .btn-small {
@@ -471,6 +486,13 @@ textarea.form-control {
     letter-spacing: 0.2em;
     color: #777;
     background-color: #e5e5e5;
+    transition: all .2s ease-in; 
+}
+
+.btn-small:hover {
+    color: #e5e5e5;
+    background-color: #777;
+    border: 1px solid #e5e5e5; 
 }
 
 .title {
@@ -503,7 +525,7 @@ blockquote p {
 /* Custom style start */
 /* Header start */
 #header {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     z-index: 999;
@@ -961,6 +983,10 @@ blockquote p {
 }
 /* ===== Why-choose-us end ===== */
 /* ===== Reviews start ===== */
+.reviews {
+    overflow: hidden;
+}
+
 .reviews .icon-quote {
     padding-top: 1px;
     font-size: 2.13rem;
@@ -994,9 +1020,11 @@ blockquote p {
 
 .slick-arrow {
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 0;
+    height: 100%;
+    width: 90px;
     z-index: 1;
+    cursor: pointer;
 }
 
 .slick-arrow.slick-prev {
@@ -1005,6 +1033,38 @@ blockquote p {
 
 .slick-arrow.slick-next {
     right: 0;
+}
+
+.slick-arrow .carousel-button {
+    width: 63px;
+    height: 63px;
+    background-color: #fff;
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 50%;
+    margin-top: -31px;
+    margin-left: -32px;
+}
+
+.slick-arrow.slick-next .carousel-button {
+    right: 0;
+    margin-right: -32px;
+}
+
+.slick-arrow .carousel-button .fa {
+    position: absolute;
+    transform: rotate(45deg);
+    font-size: 10px;
+}
+
+.slick-arrow.slick-prev .carousel-button .fa {
+    bottom: 15px;
+    right: 15px;
+}
+
+.slick-arrow.slick-next .carousel-button .fa {
+    top: 15px;
+    left: 15px;
 }
 
 .slick-dots {
