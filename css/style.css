@@ -604,6 +604,46 @@ blockquote p {
     color: rgba(254, 254, 254, .68);
 }
 
+.inner .rhomb-icon {
+    width: 20px;
+    height: 20px;
+    transform: rotate(-45deg);
+    position: absolute;
+    bottom: 35px;
+    left: 50%;
+    margin-left: -10px;
+    transition: all .2s ease-in;
+    border: 1px solid transparent;
+
+}
+
+.inner .rhomb-icon:hover {
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #000;
+}
+
+.fa-angle-down {
+    font-size: 9px;
+    position: absolute;
+    top: 6px;
+    right: 8px;
+    transform: rotate(45deg);
+}
+
+.fa-caret-up {
+    font-size: 25px;
+    color: #c6c6c6;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: all .2s ease-in;
+}
+
+.fa-caret-up:hover {
+    color: #000;
+}
+
 @media (max-width: 1200px) {
     .inner {
         height: auto;
@@ -663,6 +703,60 @@ blockquote p {
 
 .team-item-photo {
     margin-bottom: 30px;
+    height: 450px;
+    position: relative;
+    perspective: 2000px;
+}
+
+.team-item-photo:hover .team-item-front {
+    transform: rotateY(180deg);
+}
+
+.team-item-photo:hover .team-item-skills {
+    transform: rotateY(360deg);
+}
+
+.team-item-skills {
+    background-color: #000;
+    transform: rotateY(180deg);
+    padding: 40px;
+}
+
+.team-item-skills h5 {
+    font-family: 'dosisregular', sans-serif;
+    text-transform: uppercase;
+    font-size: 0.73rem;
+    letter-spacing: 0.2em;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.team-item-skills p {
+    font-family: 'open_sansregular', sans-serif;
+    font-size: 0.86rem;
+    line-height: 1.4rem;
+    color: rgba(255, 255, 255, .5);
+    margin-bottom: 45px;
+}
+
+.team-item-skills span {
+    display: block;
+    font-family: 'open_sansregular', sans-serif;
+    font-size: 0.73rem;
+    letter-spacing: 0.2em;
+    color: rgba(255, 255, 255, .9);
+    margin-bottom: 7px;
+    margin-top: 20px;
+}
+
+.container-for-flip {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    backface-visibility: hidden;
+    transition: all .8s ease;
 }
 
 .team-item-info span {
@@ -675,6 +769,21 @@ blockquote p {
 .team-item .team-item-role {
     font-size: 0.8rem;
     margin-top: 15px;
+}
+
+.progress-bar {
+    border: 1px solid #fff;
+    height: 12px;
+    width: 100%;
+    position: relative;
+}
+
+.progress-bar .progress {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background-color: #fff;
 }
 
 @media (max-width: 767px) {
@@ -1420,3 +1529,36 @@ blockquote p {
 }
 /* ===== Footer end ===== */
 /* Custom style end */
+
+
+
+.animate-opacity {
+    opacity: 0;
+    animation: opacity .5s ease-in .5s forwards;
+}
+
+.animate-scale {
+    transform: scale(0);
+    animation: scale .5s ease-in 1s forwards;
+}
+
+@keyframes opacity {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes scale {
+    0% {
+        transform: scale(0);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
