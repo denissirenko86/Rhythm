@@ -1427,6 +1427,21 @@ blockquote p {
         margin-top: 10px;
     }
 }
+
+@media (max-width: 576px) {
+    .form-submit {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .form-submit .form-info {
+        float: none;
+    }
+
+    .form-submit .btn-default {
+        float: none
+    }
+}
 /* ===== Contacts end ===== */
 /* ===== Map start ===== */
 #map {
